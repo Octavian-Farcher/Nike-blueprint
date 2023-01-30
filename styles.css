@@ -1,0 +1,110 @@
+.body {
+  width: 100vw;
+  border: 1px solid black;
+}
+.navbar_jordan {
+  border: 1px solid black;
+  padding: 1vw;
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 2em;
+}
+.navbar_jordan img {
+  padding-top: 0.3em;
+}
+
+.navbar_jordan ul {
+  list-style: none;
+  display: flex;
+  margin: 1em 3em 1em 3em;
+}
+
+.navbar_jordan li {
+  padding: 0.5em;
+  white-space: nowrap;
+  display: flex;
+  color: black;
+  align-items: center;
+}
+
+.navbar_jordan a {
+  text-decoration: none;
+  color: black;
+}
+.navbar_jordan li :hover {
+  color: grey;
+}
+
+/* Navbar Nike */
+
+.navbar-nike {
+  width: 100vw;
+  padding: 0em 1em 0em 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 3em;
+  align-items: center;
+}
+/* unordered list of the nike navbar */
+.normal-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  padding: 0em 5em 0em 5em;
+  font-size: small;
+  text-align: center;
+}
+
+/* list items */
+.normal-list li {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 14px;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid transparent;
+}
+/* hyperlink list */
+.normal-list a {
+  text-decoration: none;
+  color: black;
+}
+/* hyperlink list on hover */
+.normal-list li:hover {
+  border-bottom: 1.5px solid black;
+}
+
+/* nike LOGO */
+
+/* !!! to add hover effects on the nike logo */
+.fav_bag {
+  display: flex;
+  list-style-type: none;
+  padding-right: 15px;
+}
+.search-box {
+  width: 8vw;
+  padding-left: 45px;
+  border-radius: 10px / 10px;
+  height: 3.5vw;
+  background: url('/search-svgrepo-com.svg') no-repeat left;
+  background-size: 35px;
+  background-color: #e8e8e8;
+  border: 0px;
+  font-size: 1.5vw;
+  opacity: 0.9;
+}
+.search-box:hover {
+  background-color: #dcdcdc;
+}
+.hidden {
+  display: none;
+}
+
+@media screen {
+}
