@@ -83,32 +83,32 @@ body {
 #newdropdown{
   position: absolute;
   width: 50%;
-  top: 10%;
+  top: 8%;
   left: 5%;
 }
 #mendropdown{
   position: absolute;
   width: 50%;
-  top: 10%;
+  top: 8%;
   left: 5%;
 }
 #womendropdown{
   position: absolute;
   width: 50%;
-  top: 10%;
+  top: 8%;
   left: 5%;
 }
 #kidsdropdown{
   position: absolute;
   width: 50%;
-  top: 10%;
+  top: 8%;
   left: 5%;
 }
 #salesdropdown{
   position: absolute;
   width: 50%;
-  top: 10%;
-  left: 6%;
+  top: 8%;
+  left: 5%;
 }
 
 /* the newly shown dropdown menu with its ul's */
@@ -253,7 +253,7 @@ list-style: none;
 }
 /* hyperlink list on hover */
 .normal-list li:hover {
-  border-bottom: 1.5px solid black;
+  border-bottom: 2px solid black;
 }
 
 /* nike LOGO */
